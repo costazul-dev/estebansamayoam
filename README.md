@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# My Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal website! This website showcases my portfolio, experiences, and projects. It's built using React framework, with dynamic formatting for different device screens and a backend to support the "Contact Me" form.
 
-## Available Scripts
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Components](#components)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## Introduction
+This website serves as a hub for all things related to me. Whether you want to learn more about my background, explore my professional experiences, view my projects, or get in touch, this website has got you covered.
 
-### `npm start`
+## Features
+- **Responsive Design:** The website is designed to be responsive and adapt to different device screens, ensuring a seamless user experience across various platforms.
+- **Navigation:** The navigation bar allows users to easily navigate between different sections of the website using `react-router-dom`.
+- **Contact Me Form:** The "Contact Me" section features a form where users can send messages directly to me. The backend handles form submissions.
+- **Dynamic Formatting:** The website adjusts its layout and content presentation based on the user's device screen size.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Components
+The website is divided into several components:
+- **Home:** Welcomes visitors and provides a brief overview.
+- **About Me:** Offers detailed information about my background, skills, and interests.
+- **Experiences:** Showcases my professional journey, including education and work experiences.
+- **Projects:** Highlights various projects I've worked on, providing descriptions and relevant links.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+1. Clone this repository to your local machine.
+2. Navigate to the project directory using the terminal.
+3. Run `npm install` to install the necessary dependencies.
+4. Rename `.env.example` to `.env` and fill in the required environment variables.
+5. Run `npm start` to start the development server.
 
-### `npm test`
+## Usage
+After following the installation steps, you can access the website by opening your web browser and navigating to the provided URL. Explore the different sections using the navigation bar, view projects, and use the "Contact Me" form to get in touch.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
+- React
+- react-router-dom
+- Backend of your choice (Node.js, Django, etc.) for handling the "Contact Me" form submissions.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+Feel free to reach out to me with any questions or inquiries:
+- Email: costazul.dev@gmail.com
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/estebansamayoa/)
+- Personal Website (being built right now): [https://www.yourpersonalwebsite.com](https://www.yourpersonalwebsite.com)

@@ -6,13 +6,12 @@ import styles from "./Home.module.css";
 
 const Home = () => {
 
-    return(
-        <div className={styles.Home}>
-            <NavBar />
-            <h1>Site under construction...</h1>
-        </div>
-            
-    )
+    return (
+      <div className={styles.Home}>
+        <NavBar />
+        <h1>Site under construction... ⚠️</h1>
+      </div>
+    );
 }
 
 export default Home;

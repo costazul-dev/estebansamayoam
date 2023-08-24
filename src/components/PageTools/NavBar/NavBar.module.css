@@ -1,108 +1,46 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+}
+
 .nav {
   margin-top: 1rem;
-  display: flex;
-  background-color: #f0f0f0;
   color: black;
-  align-items: center; /* Align items vertically center */
-  justify-content: space-between; /* Distribute items across the entire width */
 }
 
 .Home,
 .contactMe {
-  flex: 0; /* Don't let these items grow or shrink */
   border-bottom: 2px solid white;
   border-top: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
 }
 
 .Home {
   border-right: 2px solid white;
+  border-left: 2px solid #f0f0f0;
 }
 
 .contactMe {
   border-left: 2px solid white;
+  border-right: 2px solid #f0f0f0;
 }
 
 .links {
   flex: 1; /* Let this item take up all available space */
-  display: flex;
-  justify-content: flex-start; /* Align the items to the start (left) */
   border-bottom: 2px solid white;
   border-top: 2px solid white;
   align-self: stretch; /* Make the element take the entire height of its parent */
   align-items: center; /* Vertically align items */
-  overflow: auto;
 }
 
 .nav_a_shrink {
   font-size: smaller; /* You can adjust this to your needs */
   padding-left: 1rem; /* Reduce padding */
-}
-
-/* Adjustments for small screen */
-@media (max-width: 750px) {
-  .nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .Home,
-  .contactMe,
-  .links {
-    flex: 1;
-    width: 100%;
-    text-align: center;
-  }
-
-  .nav ul {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .dropdownMenu {
-    display: block;
-  }
-
-  .nav_ul {
-    display: none; /* Hide the list */
-  }
-}
-
-/* Media Query specifically for 750px to 1134px screen widths */
-@media (min-width: 751px) and (max-width: 1134px) {
-  .nav {
-    height: 40px; /* Reduced height */
-  }
-
-  .nav_a_shrink {
-    font-size: 0.8rem; /* Smaller text */
-    margin-right: 0.5rem; /* Reduced margin */
-  }
-
-  .Home,
-  .contactMe,
-  .links {
-    height: 40px; /* Reduced height */
-  }
-
-  .nav ul {
-    padding-left: 1rem; /* Reduce padding */
-  }
-
-  .nav li {
-    padding-left: 0.5rem; /* Reduce padding */
-  }
-
-  .aboutMeLink {
-    height: 40px; /* Reduced height */
-    margin: 0.3rem 0.3rem; /* Reduced margin */
-  }
-}
-
-/* Large Screen (more than 1134px) */
-@media (min-width: 1135px) {
-  .nav_a {
-    display: inline;
-  }
 }
 
 .nav ul {
@@ -140,4 +78,86 @@
   width: auto;
   height: 50px;
   margin: 0.5rem 1rem;
+}
+
+/* Adjustments for small screen */
+@media (max-width: 779px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Home,
+  .contactMe,
+  .links {
+    flex: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dropdownMenu {
+    display: block;
+  }
+
+  .nav_ul {
+    display: none; /* Hide the list */
+  }
+}
+
+/* Media Query specifically for 750px to 1134px screen widths */
+@media (min-width: 780px) and (max-width: 1135px) {
+  .nav {
+    width: 100%;
+    display: inline-block;
+    font-size: smaller;
+  }
+
+  .Home,
+  .contactMe,
+  .links {
+    font-size: smaller;
+    padding: 0.5rem 0;
+  }
+
+  .Home,
+  .contactMe {
+    flex: 15%; /* Changed from width: 15%; */
+  }
+
+  .links {
+    flex: 70%; /* Changed from width: 70%; */
+  }
+
+  .nav ul {
+  }
+
+  .nav li {
+    padding-left: 0.5rem; /* Reduce padding */
+  }
+
+  .aboutMeLink {
+    height: 0.1rem;
+    width: 30%;
+  }
+}
+
+/* Large Screen (more than 1134px) */
+@media (min-width: 1135px) {
+  .nav {
+    display: flex;
+  }
+
+  .nav_a {
+    display: inline;
+  }
+
+  .links {
+    display: flex;
+    overflow: auto;
+  }
 }

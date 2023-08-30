@@ -1,3 +1,54 @@
-.Home h1{
-    color: black;
+.contents {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.headShotContainer {
+  width: 30%;
+  margin-top:auto;
+}
+
+.headShotContainer img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+
+.headShotContainer,
+.MainTitleContainer,
+.MoreTextContainer,
+.HireMeContainer {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  position: relative; /* Allows us to position child elements */
+}
+
+.MainTitleContainer h1 {
+  z-index: 1; /* Higher z-index makes sure the text appears above the rectangle */
+  position: relative; /* Necessary for z-index to take effect */
+}
+
+.MainTitleContainer::after {
+  content: "";
+  position: absolute;
+  bottom: 1rem; /* Distance from the bottom of the text */
+  left: 56%; /* Center horizontally */
+  transform: translateX(-50%); /* Centering adjustment */
+  width: 32%; /* Width of the rectangle */
+  height: 45px; /* Height of the rectangle */
+  background-color: #D3F136; /* Background color of the rectangle */
+  z-index: 0;
+}
+
+.MoreTextContainer p {
+  font-weight: bold;
+}
+
+.HireMeContainer {
+  margin-top: 1rem;
 }

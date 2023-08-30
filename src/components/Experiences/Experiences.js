@@ -8,7 +8,7 @@ import styles from "./Experiences.module.css";
 
 const experiences = [
   {
-    title: "Winning Presence® - Growth Program for Young Professionals - Remote",
+    title: "Winning Presence®, Chrysalis - Chicago, IL, Remote",
     timePeriod: "Jun 2023 - Present",
     description: "Full Stack Development Lead",
     bullets: [

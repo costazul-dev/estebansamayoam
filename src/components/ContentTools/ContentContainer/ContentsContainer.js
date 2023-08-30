@@ -8,9 +8,7 @@ const ContentsContainer = ({ list }) => {
   return (
     <div className={styles.ContentsContainer}>
       {list.map((experience, index) => (
-        <div className={styles.Block}>
-          <ContentBlock key={index} experience={experience} />
-        </div>
+        <ContentBlock key={index} experience={experience} />
       ))}
     </div>
   );

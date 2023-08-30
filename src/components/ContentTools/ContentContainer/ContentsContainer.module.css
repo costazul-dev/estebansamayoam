@@ -6,7 +6,7 @@
 }
 
 /* Media query to handle small screen sizes */
-@media (max-width: 779px) {
+@media (max-width: 1100px) {
   .ContentsContainer {
     grid-template-columns: 1fr; /* Only one column */
   }

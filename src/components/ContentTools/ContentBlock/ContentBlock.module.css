@@ -1,4 +1,4 @@
-.ContentBlock {
+.DetailsContainer {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -6,26 +6,43 @@
   padding: 0.5rem 1rem;
 }
 
-.ContentBlock p {
-    margin: 0;
-    padding: 0;
-}
-
 .ExperienceDescriptionContainer {
   align-self: flex-start; /* Aligns to the top left */
-  margin: 0;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   padding: 0;
 }
 
 .ExperienceDescriptionContainer h3{
   margin: 0;
-  padding: 0;
   font-style: italic;
+  font-size: calc(13px + 0.4vw); /* Base size of 12px plus 0.4% of viewport width */
+
+}
+
+.TimePeriodContainer {
+  font-size: calc(12px + 0.3vw); /* Base size of 10px plus 0.3% of viewport width */
+  /* Other styles */
 }
 
 .TimePeriodContainer {
   align-self: flex-end; /* Aligns to the top right */
   font-style: italic;
+}
+
+.TimePeriodContainer p{
+  align-self: flex-end; /* Aligns to the top right */
+  font-style: italic;
+  margin: 0;
+}
+
+.DetailsContainer p {
+    margin: 0;
+    padding: 0;
+    height: auto;
 }
 
 .TitleContainer {
@@ -34,8 +51,17 @@
   padding: 0;
 }
 
+.TitleContainer p {
+  font-size: calc(12px + 0.1vw); /* Base size of 14px plus 0.5% of viewport width */
+  font-style: italic;
+}
+
 .BulletsContainer {
   width: 100%; /* Takes full width */
+}
+
+.BulletsContainer li {
+  font-size: calc(13px + 0.1vw); /* Base size of 12px plus 0.3% of viewport width */
 }
 
 /* This is an additional container for ExperienceDescriptionContainer and TimePeriodContainer */
@@ -45,23 +71,4 @@
   width: 100%;
   margin: 0;
   padding: 0;
-}
-
-/* Responsive text sizes */
-.ExperienceDescriptionContainer h3{
-  font-size: calc(12px + 0.4vw); /* Base size of 12px plus 0.4% of viewport width */
-  /* Other styles */
-}
-
-.TimePeriodContainer {
-  font-size: calc(10px + 0.3vw); /* Base size of 10px plus 0.3% of viewport width */
-  /* Other styles */
-}
-
-.TitleContainer p {
-  font-size: calc(14px + 0.1vw); /* Base size of 14px plus 0.5% of viewport width */
-}
-
-.BulletsContainer li {
-  font-size: calc(12px + 0.1vw); /* Base size of 12px plus 0.3% of viewport width */
 }

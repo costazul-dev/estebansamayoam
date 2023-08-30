@@ -1,8 +1,12 @@
 .ContentsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two columns each taking up half of the container */
-  gap: 20px;
+  gap: 30px;
   margin-top: 1rem;
+}
+
+.Block {
+  height: 100%;
 }
 
 /* Media query to handle small screen sizes */

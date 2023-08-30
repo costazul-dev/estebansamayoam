@@ -1,0 +1,17 @@
+.Content {
+  margin: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.TitleContainer {
+    display: flex;
+    justify-content: flex-start;  /* This will align its children to the left */
+}
+
+.ContentsContainer {
+    display: flex;
+    justify-content: flex-start;  /* This will align its children to the left */
+  }

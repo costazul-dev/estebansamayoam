@@ -1,0 +1,16 @@
+.Title {
+    font-size: larger;
+    text-align: left;  /* Add this line */
+}
+
+@media (max-width: 779px) {
+    .Title {
+        /* Add responsive styles here if needed */
+    }
+}
+
+@media (min-width: 780px) {
+    .Title {
+        /* Add responsive styles here if needed */
+    }
+}

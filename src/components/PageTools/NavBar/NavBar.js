@@ -35,7 +35,7 @@ const NavBar = () => {
                 </div>
                 <ul className={styles.nav_ul}>
                   <li>
-                    <NavLink to="/home" className={styles.nav.a}>
+                    <NavLink to="/about-me" className={styles.nav.a}>
                       About Me
                     </NavLink>
                   </li>
@@ -50,17 +50,17 @@ const NavBar = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/projects" className={styles.nav.a}>
+                    <NavLink to="/blog" className={styles.nav.a}>
                       Blog
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/projects" className={styles.nav.a}>
+                    <NavLink to="/music" className={styles.nav.a}>
                       Music
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/projects" className={styles.nav.a}>
+                    <NavLink to="/closet-cleanup" className={styles.nav.a}>
                       Closet-Cleanup
                     </NavLink>
                   </li>

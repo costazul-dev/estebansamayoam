@@ -4,6 +4,8 @@ import ScrollToTop from "../PageTools/ScrollToTop/ScrollToTop";
 
 import Home from "../Home/Home";
 
+import Experiences from "../Experiences/Experiences";
+
 import styles from "./App.module.css";
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
       <div className={styles.App}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/experiences" element={<Experiences />} />
         </Routes>
       </div>
     </BrowserRouter>

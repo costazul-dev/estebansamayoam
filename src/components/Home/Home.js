@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className={styles.Home}>
       <NavBar />
-      <div className={styles.contents}>
+      <div className={styles.Content}>
         <div className={styles.headShotContainer}>
           <img src={headShot} alt="A Handsome Individual Named Esteban" />
         </div>

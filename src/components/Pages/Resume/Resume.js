@@ -2,10 +2,12 @@ import React from "react";
 
 import NavBar from "../../PageTools/NavBar/NavBar";
 import Title from "../../PageTools/Title/Title";
-import ResumeSectionTitle from "../../PageTools/ResumeSectionTitle/ResumeSectionTitle";
+import ContentBlock from "../../ContentTools/ContentBlock/ContentBlock";
+import professionalExperiences from "../../../assets/professionalExperiences.json";
+import volunteerWork from "../../../assets/volunteerWork.json";
+import summaryData from "../../../assets/summary.json";
 
 import styles from "./Resume.module.css";
-
 
 const Resume = () => {
   return (
@@ -15,33 +17,89 @@ const Resume = () => {
         <div className={styles.TitleContainer}>
           <Title title="Resume" />
         </div>
-        <div className={`${styles.HeavyContent} ${styles.HeavyContent}`}>
-          <div className={styles.SummaryContainer}>
-            <ResumeSectionTitle title="Summary" h={3} />
-            <p>
-              Results-oriented Junior Software Engineer with a unique blend of
-              technical and financial acumen, excelling in fast-paced
-              environments to deliver scalable and efficient software solutions.
-              Recognized for driving key technical projects and achieving,
-              maintaining, and exceeding results.
-            </p>
-          </div>
-          <div className={styles.ProfessionalExperienceContainer}>
-            <ResumeSectionTitle title="Experience" h={3} />
-          </div>
-          <div className={styles.VolunteerWorkContainer}>
-            <ResumeSectionTitle title="Volunteer Work" h={3} />
-          </div>
+        <div className={styles.SummaryContainer}>
+          <Title title="Summary" h={2} />
+          <p>{summaryData[0]?.summary}</p>
         </div>
-        <div className={`${styles.LightContent} ${styles.LightContent}`}>
-          <div className={styles.TechnicalSkillsContainer}>
-            <ResumeSectionTitle title="Technical Skills" h={3} />
+        <div className={styles.ResumeContent}>
+          <div className={`${styles.HeavyContent} ${styles.HeavyContent}`}>
+            <div className={styles.ProfessionalExperienceContainer}>
+              <Title title="Experience" h={3} />
+              {professionalExperiences.map((experience, index) => (
+                <div className={`${styles.ContentBlockGap}`} key={index}>
+                  <ContentBlock experience={experience} />
+                </div>
+              ))}
+            </div>
+            <div className={styles.VolunteerWorkContainer}>
+              <Title title="Volunteer Work" h={3} />
+              {volunteerWork.map((experience, index) => (
+                <div className={`${styles.ContentBlockGap}`} key={index}>
+                  <ContentBlock experience={experience} />
+                </div>
+              ))}
+            </div>
           </div>
-          <div className={styles.EducationContainer}>
-            <ResumeSectionTitle title="Education" h={3} />
-          </div>
-          <div className={styles.InterestsContainer}>
-            <ResumeSectionTitle title="Interests" h={3} />
+          <div className={`${styles.LightContent} ${styles.LightContent}`}>
+            <div className={styles.TechnicalSkillsContainer}>
+              <Title title="Technical Skills" h={3} />
+              <p>Languages:</p>
+              <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JSX</li>
+              </ul>
+
+              <p>Technologies:</p>
+              <ul>
+                <li>React</li>
+                <li>REST API</li>
+                <li>Firebase</li>
+                <li>Bash</li>
+                <li>PowerShell</li>
+                <li>Microsoft Office 365</li>
+              </ul>
+
+              <p>Operating Systems:</p>
+              <ul>
+                <li>Windows</li>
+                <li>Linux</li>
+              </ul>
+
+              <p>Skills:</p>
+              <ul>
+                <li>Data Science</li>
+                <li>Machine Learning</li>
+                <li>Agile</li>
+                <li>Leadership</li>
+                <li>Communication</li>
+                <li>End-User-Support</li>
+              </ul>
+            </div>
+            <div className={styles.EducationContainer}>
+              <Title title="Education" h={3} />
+              <p>Santa Clara University</p>
+              <ul>
+                <li>
+                  Bachelor of Science, Computer Science, Mathematics Minor
+                </li>
+                <li>Bachelor of Science, Finance</li>
+              </ul>
+            </div>
+            <div className={styles.InterestsContainer}>
+              <Title title="Interests" h={3} />
+              <ul>
+                <li>Surfing</li>
+                <li>Real Madrid</li>
+                <li>DJ</li>
+                <li>Self-Improvement Reading</li>
+                <li>Fiction Reading</li>
+                <li>Podcast: How I Built This</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

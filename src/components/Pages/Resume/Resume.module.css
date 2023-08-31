@@ -1,5 +1,4 @@
 .Content {
-
 }
 
 .TitleContainer {
@@ -10,17 +9,14 @@
 .ResumeContent {
   display: flex;
   justify-content: flex-start;
+  flex-direction: row;
 }
 
-.HeavyContent {
-  margin-right: 8rem;
-}
-
-.LightContent p{
+.LightContent p {
   margin: 1rem 0 0.5rem 0;
 }
 
-.LightContent ul{
+.LightContent ul {
   margin: 0;
 }
 
@@ -34,6 +30,21 @@
   }
 }
 
+/* Add this media query at the bottom of your CSS file */
+@media (max-width: 1044px) {
+  .Content {
+    margin: 2rem 4rem 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .ResumeContent {
+    flex-direction: column;
+  }
+}
+
 /* Media Query specifically for 750px to 1134px screen widths */
 @media (min-width: 780px) and (max-width: 1135px) {
   .Content {
@@ -42,6 +53,10 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
+  }
+
+  .HeavyContent {
+    margin-right: 8rem;
   }
 }
 
@@ -53,5 +68,9 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
+  }
+
+  .HeavyContent {
+    margin-right: 8rem;
   }
 }

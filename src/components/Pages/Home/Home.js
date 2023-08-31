@@ -23,7 +23,7 @@ const Home = () => {
           </p>
         </div>
         <div className={styles.HireMeContainer}>
-          <h3>Hire me.</h3>
+          <h3>Hire me</h3>
         </div>
       </div>
     </div>

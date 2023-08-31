@@ -48,8 +48,8 @@ const Resume = () => {
                 <li>Python</li>
                 <li>JavaScript</li>
                 <li>C++</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
+                <li>HTML 5</li>
+                <li>CSS 3</li>
                 <li>JSX</li>
               </ul>
 

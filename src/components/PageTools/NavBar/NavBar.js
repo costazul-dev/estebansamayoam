@@ -49,26 +49,8 @@ const NavBar = () => {
                       Experiences
                     </NavLink>
                   </li>
-                  <li>
-                    <NavLink to="/" className={styles.nav.a}>
-                      Projects
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/" className={styles.nav.a}>
-                      Blog
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/" className={styles.nav.a}>
-                      Music
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/" className={styles.nav.a}>
-                      Closet-Cleanup
-                    </NavLink>
-                  </li>
+                  
+                  
                   <li>
                     <NavLink to="/" className={styles.nav.a}>
                       Contact
@@ -97,26 +79,6 @@ const NavBar = () => {
                     Experiences
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink to="/" className={styles.nav.a}>
-                    Projects
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className={styles.nav.a}>
-                    Blog
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className={styles.nav.a}>
-                    Music
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/" className={styles.nav.a}>
-                    Closet-Cleanup
-                  </NavLink>
-                </li>
               </ul>
             </div>
             <div className={styles.contactMe}>
@@ -132,3 +94,28 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+/* 
+
+<li>
+                    <NavLink to="/" className={styles.nav.a}>
+                      Projects
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/" className={styles.nav.a}>
+                      Blog
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/" className={styles.nav.a}>
+                      Music
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/" className={styles.nav.a}>
+                      Closet-Cleanup
+                    </NavLink>
+                  </li>
+
+*/

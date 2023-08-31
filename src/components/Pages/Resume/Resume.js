@@ -97,7 +97,6 @@ const Resume = () => {
               <ul>
                 <li>Surfing</li>
                 <li>Real Madrid</li>
-                <li>DJ</li>
                 <li>Self-Improvement Reading</li>
                 <li>Fiction Reading</li>
                 <li>Podcast: How I Built This</li>

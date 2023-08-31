@@ -1,4 +1,8 @@
 .Content {
+  margin: 2rem 10rem;
+  display: flex;
+  height: 100%;
+  z-index: 2;
 }
 
 .TitleContainer {

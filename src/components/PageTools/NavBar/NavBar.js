@@ -35,6 +35,11 @@ const NavBar = () => {
                 </div>
                 <ul className={styles.nav_ul}>
                   <li>
+                    <NavLink to="/" className={styles.nav.a}>
+                      Home
+                    </NavLink>
+                  </li>
+                  <li>
                     <NavLink to="/resume" className={styles.nav.a}>
                       Resume
                     </NavLink>

@@ -1,0 +1,60 @@
+.Content {
+  margin: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.TitleContainer {
+    display: flex;
+    justify-content: flex-start;  /* This will align its children to the left */
+
+  }
+
+.ContentsContainer {
+    display: flex;
+    justify-content: flex-start;  /* This will align its children to the left */
+  }
+
+
+@media (max-width: 1100px) {
+  .Content {
+  margin: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+}
+
+/* ... existing CSS ... */
+
+.HeavyContent,
+.LightContent {
+  width: 100%;
+  /* other styling */
+}
+
+/* Media query for screens larger than 700px */
+@media (min-width: 700px) {
+  .HeavyContent,
+  .LightContent {
+    width: calc(50% - 1rem); /* Adjust width as needed */
+  }
+
+  .HeavyContent {
+    margin-right: 1rem; /* Space between HeavyContent and LightContent */
+  }
+
+  .LightContent {
+    margin-left: 1rem; /* Space between HeavyContent and LightContent */
+  }
+
+  /* Your flex container */
+  .Content {
+    display: flex;
+    flex-direction: row;
+  }
+}
+

@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "../PageTools/ScrollToTop/ScrollToTop";
 
-import Home from "../Home/Home";
-
-import Experiences from "../Experiences/Experiences";
+import Home from "../Pages/Home/Home";
+import Experiences from "../Pages/Experiences/Experiences";
+import Resume from "../Pages/Resume/Resume";
 
 import styles from "./App.module.css";
 
@@ -16,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/experiences" element={<Experiences />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </div>
     </BrowserRouter>

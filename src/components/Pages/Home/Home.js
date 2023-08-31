@@ -1,7 +1,7 @@
 import React from "react";
 
-import NavBar from "../PageTools/NavBar/NavBar";
-import headShot from "../../assets/images/Esteban.jpg";
+import NavBar from "../../PageTools/NavBar/NavBar";
+import headShot from "../../../assets/images/Esteban.jpg";
 
 import styles from "./Home.module.css";
 

@@ -1,0 +1,16 @@
+.ResumeSectionTitle {
+    font-size: larger;
+    text-align: left;  /* Add this line */
+}
+
+@media (max-width: 779px) {
+    .ResumeSectionTitle {
+        /* Add responsive styles here if needed */
+    }
+}
+
+@media (min-width: 780px) {
+    .ResumeSectionTitle {
+        /* Add responsive styles here if needed */
+    }
+}

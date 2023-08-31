@@ -1,8 +1,8 @@
 import React from "react";
 
-import NavBar from "../PageTools/NavBar/NavBar";
-import ContentsContainer from "../ContentTools/ContentContainer/ContentsContainer";
-import Title from "../PageTools/Title/Title";
+import NavBar from "../../PageTools/NavBar/NavBar";
+import ContentsContainer from "../../ContentTools/ContentContainer/ContentsContainer";
+import Title from "../../PageTools/Title/Title";
 
 import styles from "./Experiences.module.css";
 
@@ -55,7 +55,6 @@ const experiences = [
 ];
 
 const Experiences = () => {
-  console.log(experiences);
   return (
     <div className={styles.Experiences}>
       <NavBar />

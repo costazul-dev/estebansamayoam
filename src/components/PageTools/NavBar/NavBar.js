@@ -35,8 +35,8 @@ const NavBar = () => {
                 </div>
                 <ul className={styles.nav_ul}>
                   <li>
-                    <NavLink to="/about-me" className={styles.nav.a}>
-                      About Me
+                    <NavLink to="/resume" className={styles.nav.a}>
+                      Resume
                     </NavLink>
                   </li>
                   <li>
@@ -45,27 +45,27 @@ const NavBar = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/projects" className={styles.nav.a}>
+                    <NavLink to="/" className={styles.nav.a}>
                       Projects
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/blog" className={styles.nav.a}>
+                    <NavLink to="/" className={styles.nav.a}>
                       Blog
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/music" className={styles.nav.a}>
+                    <NavLink to="/" className={styles.nav.a}>
                       Music
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/closet-cleanup" className={styles.nav.a}>
+                    <NavLink to="/" className={styles.nav.a}>
                       Closet-Cleanup
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/contact" className={styles.nav.a}>
+                    <NavLink to="/" className={styles.nav.a}>
                       Contact
                     </NavLink>
                   </li>
@@ -83,8 +83,8 @@ const NavBar = () => {
             <div className={styles.links}>
               <ul className={styles.nav_ul}>
                 <li>
-                  <NavLink to="/about-me" className={styles.nav.a}>
-                    About Me
+                  <NavLink to="/resume" className={styles.nav.a}>
+                    Resume
                   </NavLink>
                 </li>
                 <li>
@@ -93,29 +93,29 @@ const NavBar = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/projects" className={styles.nav.a}>
+                  <NavLink to="/" className={styles.nav.a}>
                     Projects
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/blog" className={styles.nav.a}>
+                  <NavLink to="/" className={styles.nav.a}>
                     Blog
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/music" className={styles.nav.a}>
+                  <NavLink to="/" className={styles.nav.a}>
                     Music
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/closet-cleanup" className={styles.nav.a}>
+                  <NavLink to="/" className={styles.nav.a}>
                     Closet-Cleanup
                   </NavLink>
                 </li>
               </ul>
             </div>
             <div className={styles.contactMe}>
-              <NavLink to="/contact" className={styles.aboutMeLink}>
+              <NavLink to="/" className={styles.aboutMeLink}>
                 Contact
               </NavLink>
             </div>

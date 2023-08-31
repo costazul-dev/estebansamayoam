@@ -63,7 +63,19 @@
 .contactMe {
   border-left: 2px solid white;
   border-right: 2px solid #f0f0f0;
-  background-color: #D3F136;
+  position: relative;  /* Make this a positioned element */
+}
+
+.contactMe::after {
+  content: "";
+  position: absolute;
+  top: 33%;  /* Distance from the bottom of the text */
+  left: 53%;  /* Center horizontally */
+  transform: translateX(-50%);  /* Centering adjustment */
+  width: 43%;  /* Width of the rectangle */
+  height: 40%;  /* Height of the rectangle */
+  background-color: #D3F136;  /* Background color of the rectangle */
+  z-index: -1;  /* Adjust z-index if required */
 }
 
 .links {

@@ -2,6 +2,7 @@ import React from "react";
 
 import NavBar from "../../PageTools/NavBar/NavBar";
 import headShot from "../../../assets/images/Esteban.jpg";
+import BrushCircle from "../../PageTools/BrushCircle/BrushCircle";
 
 import styles from "./Home.module.css";
 
@@ -10,6 +11,7 @@ const Home = () => {
     <div className={styles.Home}>
       <NavBar />
       <div className={styles.Content}>
+        <BrushCircle />
         <div className={styles.headShotContainer}>
           <img src={headShot} alt="A Handsome Individual Named Esteban" />
         </div>

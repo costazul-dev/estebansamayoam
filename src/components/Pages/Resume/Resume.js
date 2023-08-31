@@ -7,6 +7,8 @@ import professionalExperiences from "../../../assets/professionalExperiences.jso
 import volunteerWork from "../../../assets/volunteerWork.json";
 import summaryData from "../../../assets/summary.json";
 
+import BrushCircle from "../../PageTools/BrushCircle/BrushCircle";
+
 import styles from "./Resume.module.css";
 
 const Resume = () => {
@@ -14,6 +16,7 @@ const Resume = () => {
     <div className={styles.Resume}>
       <NavBar />
       <div className={styles.Content}>
+        <BrushCircle />
         <div className={styles.TitleContainer}>
           <Title title="Resume" />
         </div>

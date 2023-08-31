@@ -1,0 +1,22 @@
+.brushCircle {
+  position: absolute; /* or 'fixed' depending on your need */
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #d3f136, rgba(211, 241, 54, 0) 70%);
+  z-index: -1; /* Increased z-index to make it appear on top */
+}
+
+@media (max-width: 779px) {
+    .brushCircle {
+        top: 10%;
+    }
+}
+
+
+@media (min-width: 780px) {
+    .brushCircle {
+    top: 12%; /* Adjust position as needed */
+    right: 5%; /* Adjust position as needed */
+    }
+}

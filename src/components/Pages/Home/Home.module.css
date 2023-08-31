@@ -1,3 +1,7 @@
+.Home {
+  position: relative;
+}
+
 .Content {
   margin-top: 2rem;
   display: flex;
@@ -5,6 +9,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  z-index: 2;
 }
 
 .headShotContainer {
@@ -37,15 +42,22 @@
   content: "";
   position: absolute;
   bottom: 1rem; /* Distance from the bottom of the text */
-  left: 56%; /* Center horizontally */
+  left: 58.5%;
   transform: translateX(-50%); /* Centering adjustment */
-  width: 32%; /* Width of the rectangle */
+  width: 8%; /* Width of the rectangle */
   height: 45px; /* Height of the rectangle */
   background-color: #D3F136; /* Background color of the rectangle */
   z-index: 0;
 }
 
+@media (max-width: 779px) {
+  .MainTitleContainer::after {
+    display: none;
+  }
+}
+
 .MoreTextContainer p {
+  z-index: 1; /* Higher z-index makes sure the text appears above the rectangle */
   font-weight: bold;
 }
 

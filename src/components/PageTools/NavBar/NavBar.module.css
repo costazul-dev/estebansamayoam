@@ -160,7 +160,7 @@
 }
 
 /* Media Query specifically for 750px to 1134px screen widths */
-@media (min-width: 780px) and (max-width: 1135px) {
+@media (min-width: 780px) and (max-width: 1240px) {
   .nav {
     width: 100%;
     display: inline-block;
@@ -203,7 +203,7 @@
 }
 
 /* Large Screen (more than 1134px) */
-@media (min-width: 1135px) {
+@media (min-width: 1241px) {
   .nav {
     display: flex;
   }

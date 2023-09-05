@@ -15,8 +15,8 @@ function App() {
       <div className={styles.App}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/experiences" element={<Experiences />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/projects" element={<Experiences />} />
         </Routes>
       </div>
     </BrowserRouter>

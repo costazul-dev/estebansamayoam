@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Technologies used: JavaScript, HTML/CSS, JSX, React, Firebase, Vercel, Figma, Git",
+    "timePeriod": "Link Coming Soon",
+    "description": "Online Personal Mentorship Guide App",
+    "bullets": [
+      "Built a React-based mentor-matching app that facilitated selection, reducing manual vetting time for users.",
+      "Designed the application’s UX/UI via Figma, ensuring ease of use and functionality.",
+      "Implemented Firebase for secure, seamless backend support, gaining test users’ trust with their information.",
+      "Deployed the application on Vercel, ensuring seamless scalability to handle increased user traffic."
+      ]
+  },
+  {
+    "title": "Technologies used: JavaScript, HTML/CSS, JSX, Vercel",
+    "timePeriod": "You Are Here",
+    "description": "Personal Website",
+    "bullets": [
+      "Automated web scraping in Python, enriching 1,000+ product entries for enhanced market analysis.",
+      "Created data cleaning and spreadsheet compilation software making data amendable for analysis (Pandas).",
+      "Implemented OpenAI for SEO-friendly descriptions, boosting search visibility and user engagement.",
+      "Trained staff on software debugging, and customization, providing longevity to the program (Leadership).",
+      "Prompted an increase in website usage and sales by more than 15% (Google Analytics, Shopify)."
+    ]
+  },
+  {
+    "title": "Technologies used: Python, Flask, HTML/CSS, JavaScript, React, OAuth, API Integrations (Spotify, Apple Music, etc.), CSV, Vercel, Git",
+    "timePeriod": "Link Coming Soon",
+    "description": "WhatsApp Chat Music Playlist Generator",
+    "bullets": [
+      "Developed a web application that extracts song links from a WhatsApp chat and generates a playlist on multiple music platforms, simplifying the process of collecting and organizing shared music.",
+      "Utilized Python and Flask for the backend, processing .txt files to identify URLs and fetching song details through various music service APIs, ensuring anyone with any music service could use the application.",
+      "Incorporated OAuth 2.0 for secure login and playlist creation, offering users an integrated experience with Spotify, Apple Music, SoundCloud, and YouTube Music.",
+      "Employed Git for version control, streamlining collaboration and deployment."  
+    ]
+  }
+]

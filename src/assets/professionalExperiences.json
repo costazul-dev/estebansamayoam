@@ -1,17 +1,5 @@
 [
   {
-    "title": "Winning Presence® - Chicago, IL, Remote",
-    "timePeriod": "Jun 2023 - Present",
-    "description": "Full Stack Development Lead",
-    "bullets": [
-      "Analyzed data to link personal branding with career success, enhancing product features.",
-      "Designed the MVP’s UX/UI via Figma, ensuring ease of use and functionality.",
-      "Built a scalable React-based web app, setting a strong foundation for future development.",
-      "Implemented Firebase for secure, seamless backend support, gaining test users’ trust with their information.",
-      "Deployed REST API and OpenAI for real-time user feedback, enhancing customer satisfaction."
-    ]
-  },
-  {
     "title": "Simplo - Ciudad de Mexico, Mexico, Remote",
     "timePeriod": "Jan 2023 - Mar 2023",
     "description": "Software Development Engineer (Freelance)",

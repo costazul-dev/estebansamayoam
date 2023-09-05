@@ -50,7 +50,7 @@ const NavBar = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/" className={styles.nav.a}>
+                    <NavLink to="/contact" className={styles.nav.a}>
                       Contact
                     </NavLink>
                   </li>
@@ -80,7 +80,7 @@ const NavBar = () => {
               </ul>
             </div>
             <div className={styles.contactMe}>
-              <NavLink to="/" className={styles.aboutMeLink}>
+              <NavLink to="/contact" className={styles.aboutMeLink}>
                 Contact
               </NavLink>
             </div>

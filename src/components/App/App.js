@@ -5,6 +5,7 @@ import ScrollToTop from "../PageTools/ScrollToTop/ScrollToTop";
 import Home from "../Pages/Home/Home";
 import Experiences from "../Pages/Experiences/Experiences";
 import Resume from "../Pages/Resume/Resume";
+import Contact from "../Pages/Contact/Contact";
 
 import styles from "./App.module.css";
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Experiences />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </BrowserRouter>

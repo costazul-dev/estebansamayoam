@@ -4,6 +4,7 @@ import NavBar from "../../PageTools/NavBar/NavBar";
 import Title from "../../PageTools/Title/Title";
 import ContentBlock from "../../ContentTools/ContentBlock/ContentBlock";
 import professionalExperiences from "../../../assets/professionalExperiences.json";
+import projects from "../../../assets/projects.json";
 import volunteerWork from "../../../assets/volunteerWork.json";
 import summaryData from "../../../assets/summary.json";
 
@@ -31,6 +32,14 @@ const Resume = () => {
               {professionalExperiences.map((experience, index) => (
                 <div className={`${styles.ContentBlockGap}`} key={index}>
                   <ContentBlock experience={experience} />
+                </div>
+              ))}
+            </div>
+            <div className={styles.ProjectsContainer}>
+              <Title title="Projects" h={3} />
+              {projects.map((project, index) => (
+                <div className={`${styles.ContentBlockGap}`} key={index}>
+                  <ContentBlock experience={project} />
                 </div>
               ))}
             </div>

@@ -29,38 +29,50 @@
 .HireMeContainer {
   width: 100%;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   position: relative; /* Allows us to position child elements */
+  align-items: ;
 }
 
 .MainTitleContainer h1 {
   z-index: 1; /* Higher z-index makes sure the text appears above the rectangle */
   position: relative; /* Necessary for z-index to take effect */
+  margin-bottom: 0;
 }
 
-.MainTitleContainer::after {
-  content: "";
-  position: absolute;
-  bottom: 1rem; /* Distance from the bottom of the text */
-  left: 58.5%;
-  transform: translateX(-50%); /* Centering adjustment */
-  width: 8%; /* Width of the rectangle */
-  height: 45px; /* Height of the rectangle */
-  background-color: #D3F136; /* Background color of the rectangle */
-  z-index: 0;
-}
+
+
 
 @media (max-width: 779px) {
-  .MainTitleContainer::after {
-    display: none;
-  }
+  
+}
+
+.MoreTextContainer {
+  max-width: 800px; /* or whatever maximum width you want */
+  margin: 0 auto; /* Horizontal auto-margins for centering */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  position: relative;
+}
+
+.MoreTextContainer h2,
+.MoreTextContainer p {
+  max-width: 90%; /* or whatever maximum width you want */
+  margin: 0 auto; /* Horizontal auto-margins for centering */
+  z-index: 1;
+  padding-top: 0.5rem; /* Removed large padding */
 }
 
 .MoreTextContainer p {
-  z-index: 1; /* Higher z-index makes sure the text appears above the rectangle */
+  padding-top: 1.5rem;
   font-weight: bold;
 }
 
 .HireMeContainer {
   margin-top: 1rem;
 }
+

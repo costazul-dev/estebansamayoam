@@ -51,7 +51,7 @@
 
 .MoreTextContainer {
   max-width: 800px; /* or whatever maximum width you want */
-  margin: 0 auto; /* Horizontal auto-margins for centering */
+  margin: 0 auto 2rem auto; /* Horizontal auto-margins for centering */
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -61,16 +61,22 @@
 
 .MoreTextContainer h2,
 .MoreTextContainer p {
+  z-index: 1;
+}
+
+
+.MoreTextContainer h2,
+.MoreTextContainer p {
   max-width: 90%; /* or whatever maximum width you want */
   margin: 0 auto; /* Horizontal auto-margins for centering */
-  z-index: 1;
   padding-top: 0.5rem; /* Removed large padding */
 }
 
 .MoreTextContainer p {
-  padding-top: 1.5rem;
   font-weight: bold;
 }
+
+
 
 .HireMeContainer {
   margin-top: 1rem;

@@ -8,7 +8,7 @@
       "Designed the application’s UX/UI via Figma, ensuring ease of use and functionality.",
       "Implemented Firebase for secure, seamless backend support, gaining test users’ trust with their information.",
       "Deployed the application on Vercel, ensuring seamless scalability to handle increased user traffic."
-      ]
+    ]
   },
   {
     "title": "Technologies used: JavaScript, HTML/CSS, JSX, Vercel",
@@ -23,6 +23,22 @@
     ]
   },
   {
+    "title": "Technologies used: Java, JavaFX, Socket Programming, Multi-Threading, SQL",
+    "timePeriod": "Code @ Github",
+    "description": "JChatHub: A Real-Time Java Chat Application",
+    "bullets": [
+      "Implemented a multi-threaded chat server capable of handling multiple clients simultaneously, enabling real-time message exchange between participants (Real-Time Communication).",
+      "Developed a client-server chat application using Java with socket programming, allowing for seamless bi-directional communication between the server and connected clients (Client-Server Architecture).",
+      "Integrated a JavaFX-based user interface for the client-side application, offering an intuitive and straightforward user experience (Graphical User Interface).",
+      "Engineered the application using object-oriented design principles and MVC architecture, providing a modular and maintainable codebase that facilitates future enhancements (Modular Codebase).",
+      "Employed thread pools in the server-side application to manage concurrent client connections efficiently, thereby laying the foundation for future scalability (Scalability and Concurrency).",
+      "Introduced unique username functionality for better user identification and a more personalized experience (User Experience Enhancement).",
+      "Designed the server to broadcast a dynamic list of connected clients, enabling real-time updates and paving the way for advanced features like private messaging (Extensibility).",
+      "Addressed multi-threading and synchronization challenges to ensure a robust and stable application, enhancing its reliability (Problem-Solving and Debugging).",
+      "Incorporated input/output streams and utilized efficient data structures for message passing and user management, enhancing both speed and resource utilization (Efficiency and Optimization)."
+    ]
+  },
+  {
     "title": "Technologies used: Python, Flask, HTML/CSS, JavaScript, React, OAuth, API Integrations (Spotify, Apple Music, etc.), CSV, Vercel, Git",
     "timePeriod": "Link Coming Soon",
     "description": "WhatsApp Chat Music Playlist Generator",
@@ -30,7 +46,7 @@
       "Developed a web application that extracts song links from a WhatsApp chat and generates a playlist on multiple music platforms, simplifying the process of collecting and organizing shared music.",
       "Utilized Python and Flask for the backend, processing .txt files to identify URLs and fetching song details through various music service APIs, ensuring anyone with any music service could use the application.",
       "Incorporated OAuth 2.0 for secure login and playlist creation, offering users an integrated experience with Spotify, Apple Music, SoundCloud, and YouTube Music.",
-      "Employed Git for version control, streamlining collaboration and deployment."  
+      "Employed Git for version control, streamlining collaboration and deployment."
     ]
   }
 ]
